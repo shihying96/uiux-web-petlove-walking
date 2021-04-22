@@ -24,6 +24,7 @@
     <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
 
 
+
     <title>PetLove 派樂星球</title>
     <style>
 
@@ -911,18 +912,17 @@
     <div class="n_walking_site_wrapAll">
         <div class="n_walking_site_wrap">
             <div class="n_walking_site">地點:</div>
-            <select class="form-control" style="display: inline-block; width: auto">
-                <option value="1"></option>
+            <select class="form-control" style="display: inline-block;">
+                <option value="" disabled selected>請選擇地點</option>
                 <option value="2">台北</option>
                 <option value="3">台中</option>
                 <option value="4">台南</option>
                 <option value="5">高雄</option>
             </select>
         </div>
-
         <div class="n_walking_site_wrap">
             <div class="n_walking_site">日期:</div>
-            <input id="datepicker" width="270" />
+            <input id="datepicker" width="270" placeholder="請選擇日期" style="font-style: normal;" />
             <!-- <select class="form-control" style="display: inline-block; width: auto">
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -934,7 +934,8 @@
 
         <div class="n_walking_site_wrap">
             <div class="n_walking_site">時間:</div>
-            <select class="form-control" style="display: inline-block; width: auto">
+            <select class="form-control" style="display: inline-block;font-style: normal;">
+                <option value="" disabled selected>請選擇時間</option>
                 <option value="1"></option>
                 <option value="2">09:30</option>
                 <option value="3">10:00</option>
@@ -945,8 +946,8 @@
 
         <div class="n_walking_site_wrap">
             <div class="n_walking_site">方案:</div>
-            <select class="form-control" style="display: inline-block; width: auto">
-                <option value="1"></option>
+            <select class="form-control" style="display: inline-block; font-style: normal;">
+                <option value="" disabled selected>請選擇方案</option>
                 <option value="2">方案一: 30分鐘/150元</option>
                 <option value="3">方案二: 1小時/250元</option>
 
@@ -955,16 +956,16 @@
     </div>
 
     <svg class="n_map_taipei" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1132.37 973.341">
-        <g id="Group_126" data-name="Group 126" transform="translate(-507.483 -477)">
+        <g id="Group_616" data-name="Group 616" transform="translate(-393.5 -746.182)">
             <path id="Path_111" data-name="Path 111"
                 d="M1450.676,418.643c-13.154-10.694-32.563-6.737-49.032-10.694-28.82-7.325-44.166-38.124-54.111-66.142a104.3,104.3,0,0,0-7.539-18.019c-11.229-19.57-33.9-29.408-55.716-35.237s-44.861-9.3-64.164-21.388a66.676,66.676,0,0,0-19.3-10.052c-7.86,18.126-27.216,31.761-47.16,29.569-9.945-1.069-21.762-4.759-28.553,2.513a20.535,20.535,0,0,0-4.6,11.336,78.922,78.922,0,0,0,13.207,57,41.111,41.111,0,0,1,7.432,12.886c3.529,13.474-10.694,25.131-23.847,29.355-27,8.716-56.25,3.582-84.161-1.551a122.982,122.982,0,0,1-41.76-13.047c-15.72-9.464-26.254-25.4-36.306-40.744l-33.044-50.689a34.483,34.483,0,0,1-5.775-12.084c-1.924-10.694,7.058-20.639,16.9-25.4s20.961-6.309,30.692-11.336c19.784-10.266,29.622-32.51,38.07-53.149l.481-1.23c-.748-1.337-1.6-2.62-2.246-4.01-19.035-38.445-65.607-62.132-107.42-70.473-9.143-1.818-20.212,2.46-26.735-4.331a26.735,26.735,0,0,1-5.347-11.282c-14.971-49.994-55.074-98.491-107.26-99.4-26.147-.428-48.123,20.586-70.794,33.2-67.532,37.429-133.674,79.3-165.756,149.341-10.961,23.847-1.764,32.456-23.206,47.641-15.346,10.961-52.454,32.082-70.847,36.627-31.761,7.593-61.971,20.8-92.075,33.953,34.007,11.068,65.34,21.388,76.408,25.986,25.505,10.694,50.208,27.7,60.635,53.47,8.983,21.976,6.2,46.839,1.711,70.1-5.347,28.072-18.447,60.688-46.626,65.233-8.448,1.39-17.538,0-25.452,3.315-14.383,6.2-17.7,24.756-18.982,40.37q-1.6,18.928-3.155,37.857a29.354,29.354,0,0,0,1.444,15.4,38.761,38.761,0,0,0,11.229,11.443c20.907,17.912,25.665,47.695,32.777,74.269a32.083,32.083,0,0,0,8.288,16.415,33.846,33.846,0,0,0,17.966,6.149l77.1,10.694c11.015,1.551,22.778,3.422,31.119,10.694,13.368,11.924,12.566,32.51,13.261,50.422a192.5,192.5,0,0,0,17.057,71.97,380.086,380.086,0,0,0,30.852,52.186l32.082,48.123c1.23,1.872,3.155,4.01,5.347,3.315s.909-2.62,0-3.315l-1.176.267a.749.749,0,0,1,1.176-.267,424.6,424.6,0,0,0,114.1-37.161c19.623-10.106,39.193-22.35,51.01-41.011,19.2-30.1,15.025-71.649,37.429-99.507C877,762.4,913.146,756.679,942.982,742.4a301.5,301.5,0,0,0,46.2-29.462l98.17-71.328c15.774-11.443,32.831-25.024,35.45-44.326,16.629,12.3,41.065,4.545,56.517-9.2s25.826-32.456,41.012-46.519a190.843,190.843,0,0,1,42.294-27c26.04-13.581,52.668-27.376,81.648-32.082a105.978,105.978,0,0,1,58.817,6.416q16.041-13.314,33.2-25.024C1453.991,452.276,1466.557,431.69,1450.676,418.643Z"
-                transform="translate(179.283 478.461)" fill="#f9dd83" stroke="#f7f4ee" stroke-linecap="round"
+                transform="translate(65.3 747.643)" fill="#f9dd83" stroke="#f7f4ee" stroke-linecap="round"
                 stroke-linejoin="round" stroke-miterlimit="10" stroke-width="5" />
-            <text id="台北" transform="translate(790.843 933.18)" fill="#707070" font-size="119"
+            <text id="台北" transform="translate(688.86 1202.362)" fill="#707070" font-size="80"
                 font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700" letter-spacing="0.36em">
                 <tspan x="0" y="0">台北</tspan>
             </text>
-            <text id="此地區有340位代遛員" transform="translate(688.935 1053.182)" fill="#707070" font-size="40"
+            <text id="此地區有340位代遛員" transform="translate(602.86 1322.363)" fill="#707070" font-size="30"
                 font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.24em">
                 <tspan x="0" y="0">此地區有</tspan>
                 <tspan y="0" font-family="SegoeUI, Segoe UI">340</tspan>
@@ -988,7 +989,6 @@
         <option value="4">4</option>
         <option value="5">5</option>
     </select> -->
-
 
 
     <a href="#" id="gotop" style="text-decoration: none;">

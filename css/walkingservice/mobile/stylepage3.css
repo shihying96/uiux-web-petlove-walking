@@ -530,7 +530,32 @@ fill: none !important;
 .form-control{
     border-radius:10px!important;
 }
-                
+ .n_walking_site_wrap{
+     margin-bottom: 20px;
+ }               
+ .n_map_taipei{
+     margin-top: 30px;
+     margin-bottom: 50px;
+ }
+ .n_booking_buttonWrap2{
+    width: fit-content;
+    margin: 0 auto;
+}
+.n_booking_button2{
+   border: 0;
+    height: 35px;
+    width: 150px;
+    background: var(--mainblue);
+    border-radius: 18px;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 35px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
 }
 
 

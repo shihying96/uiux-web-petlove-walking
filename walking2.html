@@ -20,6 +20,9 @@
 
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
 
 
     <title>PetLove 派樂星球</title>
@@ -905,7 +908,9 @@
         </svg>
 
     </div>
+
     <div class="n_select">請選擇地區</div>
+
 
 
 
@@ -997,14 +1002,15 @@
 
 
 
-
-    <!-- <select class="form-control" style="display: inline-block; width: auto">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-    </select> -->
+    <div class="n_form-control_wrap">
+        <select class="form-control" style="display: inline-block; width: auto;">
+            <option value="1" disabled selected>請選擇地點</option>
+            <option value="2">台北</option>
+            <option value="3">台中</option>
+            <option value="4">台南</option>
+            <option value="5">高雄</option>
+        </select>
+    </div>
     <a href="#" id="gotop" style="text-decoration: none;">
         TOP
     </a>
@@ -1166,6 +1172,7 @@
     <script src="./js/0_main/navbar/mobile/custom.js"></script>
     <script src="./js/0_main/navbar/web/custom.js"></script>
     <script src="./js/0_main/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

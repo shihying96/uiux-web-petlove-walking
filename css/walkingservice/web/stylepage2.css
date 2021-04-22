@@ -29,6 +29,9 @@
             fill: #F9DD83;
 
         }
+        #Path_12659{
+            stroke: var(--maingray);
+        }
 
         .title_area {
             position: absolute;
@@ -89,6 +92,12 @@
 
 .n_list1{
     display: none;
+}
+.n_select2{
+    color: var(--mainblue);
+}
+.form-control{
+    display: none !important;
 }
 
 }

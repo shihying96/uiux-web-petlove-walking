@@ -499,6 +499,7 @@ width: 100%;
                  }
 
                  .n_select{
+                     display: none;
                      color: var(--mainblue);
                      font-size: 18px;
                      letter-spacing: 6px;
@@ -506,10 +507,24 @@ width: 100%;
                      margin-top: 50px;
                  }
                  .n_list1{
-                     margin-top: 80px;
+                     margin-top: 60px;
                      margin-left: 7px;
                  }
-
+                 .n_select2{
+                    display: none;
+                }
+                .n_walking_site{
+                    display: flex;
+                }
+              .n_form-control_wrap{
+                  width: fit-content;
+                  margin: 0 auto;
+                  margin-top: -40px;
+                  margin-bottom: 60px;
+              }
+              #Ellipse_32{
+                  fill:var(--mainyellow) ;
+              }
                 
 }
 
