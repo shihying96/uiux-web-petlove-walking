@@ -431,7 +431,7 @@ width: 100%;
             transform: scale(0.7);
         }
 #app{
-    margin-top:200px;
+    margin-top:0;
 }
 
 
@@ -476,6 +476,25 @@ width: 100%;
         .forcast h2 {
             margin-top: 20px;
         }
+        .n_booking_buttonWrap{
+    width: fit-content;
+    margin: 0 auto;
+}
+.n_booking_button{
+   border: 0;
+    height: 35px;
+    width: 150px;
+    background: var(--mainblue);
+    border-radius: 18px;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 35px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
 }
 
 

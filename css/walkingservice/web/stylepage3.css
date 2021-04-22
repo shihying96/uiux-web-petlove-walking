@@ -20,15 +20,12 @@
 
         path {
             stroke: #fff;
-            fill: #89A7C2;
+            fill:var(--mainyellow);
             transition: 0.5s;
             cursor: pointer;
         }
 
-        path:hover {
-            fill: #F9DD83;
-
-        }
+      
 
         .title_area {
             position: absolute;
@@ -66,29 +63,83 @@
                     
                  }
 
-                 #Path_12639{
+                 #Path_12659{
                       stroke: #CCCCCC;
                  }
 
                  #Ellipse_59{
-                     fill: var(--mainyellow);
+                     fill: var(--maingray);
                     
                  }
-                 #_1{
-                   fill:var(--maindarkgray) ;
+                 #Ellipse_60{
+                       fill: var(--mainyellow);
+                 }
+                 #_2{
                    font-weight: 400;
+                   fill: var(--maindarkgray);
                  }
 
                  .n_select{
                      color: var(--mainblue);
                      font-size: 22px;
                      letter-spacing: 6px;
-                     margin-left: 550px;
+                     margin-left:400px;
                      margin-top: 50px;
+                     margin-bottom: 20px;
                  }
 
 .n_list1{
     display: none;
+}
+.n_walking_site_wrap{
+    display: flex;
+    margin-right: 20px;
+}
+.n_walking_site{
+    line-height: 38px;
+    margin-right: 10px;
+}
+
+.form-control{
+    border-radius:10px!important;
+    width: 210px !important;
+    color: var(--maindarkgray);
+    border: 1px solid var(--maingray);
+}
+.n_walking_site_wrapAll{
+    display: flex;
+    justify-content: center;
+}
+
+.n_map_taipei{
+    transform: scale(0.35);
+   margin-top: -450px;
+   margin-bottom: -500px;
+}
+    .n_booking_buttonWrap2{
+    width: fit-content;
+    margin: 0 auto;
+}
+.n_booking_button2{
+   border: 0;
+    height: 35px;
+    width: 150px;
+    background: var(--mainblue);
+    border-radius: 18px;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 35px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+input::placeholder {
+  color: red;
+  font-size: 1.2em;
+  font-style: italic;
 }
 
 }

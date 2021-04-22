@@ -431,7 +431,7 @@ width: 100%;
             transform: scale(0.7);
         }
 #app{
-    margin-top:200px;
+    margin-top:-80px;
 }
 
 
@@ -476,6 +476,41 @@ width: 100%;
         .forcast h2 {
             margin-top: 20px;
         }
+
+       .n_list{
+           display: none;
+                     width:90%;
+                     margin: 0 auto;
+                     margin-top: 100px;
+                    
+                 }
+
+                 #Path_12639{
+                      stroke: #CCCCCC;
+                 }
+
+                 #Ellipse_59{
+                     fill: var(--mainyellow);
+                    
+                 }
+                 #_1{
+                   fill:var(--maindarkgray) ;
+                   font-weight: 400;
+                 }
+
+                 .n_select{
+                     color: var(--mainblue);
+                     font-size: 18px;
+                     letter-spacing: 6px;
+                     margin-left: 50px;
+                     margin-top: 50px;
+                 }
+                 .n_list1{
+                     margin-top: 80px;
+                     margin-left: 7px;
+                 }
+
+                
 }
 
 
