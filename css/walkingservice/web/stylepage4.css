@@ -167,7 +167,7 @@
         background-color: transparent;
         border: none;
         color: var(--mainblue);
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .page-link:hover {
@@ -291,6 +291,10 @@
         color: var(--mainblue);
 
 
+    }
+
+    #myDIV {
+        display: none;
     }
 
 }

@@ -281,4 +281,17 @@
     .n_walking_site2 {
         display: none;
     }
+
+    #myDIV {
+        width: 320px;
+        height: 600px;
+        background: #fff;
+        border-radius: 10px;
+        position: absolute;
+        z-index: 999;
+        top: 300px;
+        left: 28px;
+        border: 1px solid var(--maingray);
+        background: #F7F4EE;
+    }
 }

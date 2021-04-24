@@ -922,10 +922,68 @@
     <div class="n_walkingWriteWrap2">
         <a href="#" class="badge badge-light">18:00</a>
         <a href="#" class="badge badge-light">方案一(30分鐘)</a>
-        <a href="#" class="n_walkingReWrite">修改</a>
+        <button onclick="myFunction()">修改</button>
 
     </div>
+    <div id="myDIV">
+        <div class="n_myDIV_title">請選擇地點、時間</div>
+        <div class="n_walking_site_wrapAll">
+            <div class="n_walking_site_wrap">
+                <div class="n_walking_site">地點:</div>
+                <select class="form-control" style="display: inline-block;">
+                    <option value="" disabled selected>請選擇地點</option>
+                    <option value="2">台北</option>
+                    <option value="3">台中</option>
+                    <option value="4">台南</option>
+                    <option value="5">高雄</option>
+                </select>
+            </div>
+            <div class="n_walking_site_wrap">
+                <div class="n_walking_site">地區:</div>
+                <select class="form-control" style="display: inline-block;">
+                    <option value="" disabled selected>請選擇地區</option>
+                    <option value="2">大安區</option>
+                    <option value="3">信義區</option>
+                    <option value="4">大同區</option>
 
+                </select>
+            </div>
+            <div class="n_walking_site_wrap">
+                <div class="n_walking_site">日期:</div>
+                <input id="datepicker" width="210" placeholder="請選擇日期" style="font-style: normal;" />
+                <!-- <select class="form-control" style="display: inline-block; width: auto">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select> -->
+            </div>
+
+            <div class="n_walking_site_wrap">
+                <div class="n_walking_site">時間:</div>
+                <select class="form-control" style="display: inline-block;font-style: normal;">
+                    <option value="" disabled selected>請選擇時間</option>
+                    <option value="1"></option>
+                    <option value="2">09:30</option>
+                    <option value="3">10:00</option>
+                    <option value="4">10:30</option>
+                    <option value="5">11:30</option>
+                </select>
+            </div>
+
+            <div class="n_walking_site_wrap">
+                <div class="n_walking_site">方案:</div>
+                <select class="form-control" style="display: inline-block; font-style: normal;">
+                    <option value="" disabled selected>請選擇方案</option>
+                    <option value="2">方案一: 30分鐘/150元</option>
+                    <option value="3">方案二: 1小時/250元</option>
+
+                </select>
+            </div>
+        </div>
+
+    </div>
     <div class="n_walking_site_wrapAll2">
         <div class="n_walking_site_wrap2">
             <div class="n_walking_site2">地點:</div>
@@ -1311,6 +1369,21 @@
         $('#datepicker').datepicker({
             uiLibrary: 'bootstrap'
         });
+    </script>
+
+
+    <!-- <button onclick="myFunction()">Click Me</button> -->
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
     </script>
     <a href="#" id="gotop" style="text-decoration: none;">
         TOP
