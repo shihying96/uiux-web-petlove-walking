@@ -1,3 +1,9 @@
+$(document).ready(function () {
+    $('.n_walkingReWrite').on('click', function () {
+        $('.n_walkingReWrite').toggleClass('.n_walkingChangeBox');
+    });
+});
+
 
 $(".n_slider").owlCarousel({
     // loop: true,
