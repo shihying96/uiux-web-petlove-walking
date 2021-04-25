@@ -922,10 +922,10 @@
     <div class="n_walkingWriteWrap2">
         <a href="#" class="badge badge-light">18:00</a>
         <a href="#" class="badge badge-light">方案一(30分鐘)</a>
-        <button onclick="myFunction()">修改</button>
+        <button class="n_button_click" onclick="myFunction()">修改</button>
 
     </div>
-    <div id="myDIV">
+    <div id="myDIV" style="display: none;">
         <div class="n_myDIV_title">請選擇地點、時間</div>
         <div class="n_walking_site_wrapAll">
             <div class="n_walking_site_wrap">
@@ -950,7 +950,8 @@
             </div>
             <div class="n_walking_site_wrap">
                 <div class="n_walking_site">日期:</div>
-                <input id="datepicker" width="210" placeholder="請選擇日期" style="font-style: normal;" />
+                <input id="datepicker" class="form-control" width="210" placeholder="請選擇日期"
+                    style="font-style: normal;" />
                 <!-- <select class="form-control" style="display: inline-block; width: auto">
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -982,6 +983,9 @@
                 </select>
             </div>
         </div>
+        <div class="n_booking_buttonWrap">
+            <button class="n_booking_button">完成</button>
+        </div>
 
     </div>
     <div class="n_walking_site_wrapAll2">
@@ -1006,7 +1010,7 @@
         </div>
         <div class="n_walking_site_wrap2">
             <div class="n_walking_site2">日期:</div>
-            <input id="datepicker" width="140" placeholder="請選擇日期" style="font-style: normal;" />
+            <input id="datepicker" width="140" class="form-control" placeholder="請選擇日期" style="font-style: normal;" />
         </div>
 
         <div class="n_walking_site_wrap2">
@@ -1036,7 +1040,7 @@
 
     <div class="n_walking_site_wrap3">
         <div class="n_walking_site2 ">搜尋:</div>
-        <input id="datepicker" class="form-control form-control2" placeholder="請選擇日期" style="font-style: normal;" />
+        <input id="datepicker" class="form-control form-control2" placeholder="" style="font-style: normal;" />
         <svg id="icon-search">
             <use xlink:href="./images/index/icomoon/symbol-defs.svg#icon-search"></use>
         </svg>
@@ -1380,9 +1384,13 @@
             var x = document.getElementById("myDIV");
             if (x.style.display === "none") {
                 x.style.display = "block";
+                $('.n_button_click').css('color', '#ff9a9a');
             } else {
                 x.style.display = "none";
+                $('.n_button_click').css('color', '#89a7c2');
             }
+
+
         }
     </script>
     <a href="#" id="gotop" style="text-decoration: none;">
