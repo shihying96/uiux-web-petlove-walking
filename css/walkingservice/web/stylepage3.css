@@ -93,6 +93,7 @@
         margin-bottom: 20px;
     }
 
+
     .n_list1 {
         display: none;
     }
@@ -122,7 +123,7 @@
 
     .n_map_taipei {
         transform: scale(0.35);
-        margin-top: -350px;
+        margin-top: -450px;
         margin-bottom: -500px;
     }
 

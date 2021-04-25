@@ -11,9 +11,9 @@
 
     /* map */
     #app {
-        margin-top: -1000px;
+        margin-top: -1200px;
         height: 2400px;
-        margin-bottom: -200px;
+        margin-bottom: 50px;
     }
 
     .map {
@@ -105,8 +105,12 @@
         color: var(--mainblue);
     }
 
-    .form-control {
-        display: none !important;
-    }
-
+  
+       
+.n_form-control_select_wrap_box{
+    display: none;
+}
+.form-control{
+    display: none !important;
+}
 }

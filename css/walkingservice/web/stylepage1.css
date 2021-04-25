@@ -449,7 +449,7 @@
         text-align: center;
         letter-spacing: 3px;
         line-height: 35px;
-        margin-bottom: 50px;
+        margin-bottom: 70px;
         margin-top: 50px;
     }
 
@@ -483,7 +483,7 @@
     }
 
     .flickity-slider {
-        left: -440px !important
+        left: -430px !important
     }
 
     /* .flickity-prev-next-button.previous{

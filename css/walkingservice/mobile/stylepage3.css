@@ -528,12 +528,27 @@ fill: none !important;
     margin-top:50px ;
 }
 .form-control{
+width: 210px;
     border-radius:10px!important;
+    color: var(--maindarkgray)!important;
 }
+
  .n_walking_site_wrap{
      margin-bottom: 20px;
- }               
+    
+   display: flex;
+ }         
+ .n_walking_site{
+     width:80px;
+     margin-top: 8px;
+     
+     color: var(--mainblue);
+ }      
+ #datepicker2{
+     width: none!important;
+ }
  .n_map_taipei{
+     transform: scale(0.9);
      margin-top: 30px;
      margin-bottom: 50px;
  }

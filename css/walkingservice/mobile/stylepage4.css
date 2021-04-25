@@ -75,6 +75,7 @@
 
     .n_walking_site_wrap {
         margin-bottom: 20px;
+        display: flex;
     }
 
     .n_map_taipei {
@@ -230,7 +231,7 @@
         background-color: transparent;
         border: none;
         color: var(--mainblue);
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .page-link:hover {
@@ -306,10 +307,11 @@
     }
 
     .n_myDIV_title {
-        font-size: 16px;
+        font-size: 18px;
         color: var(--mainblue);
         margin-top: 60px;
-        margin-left: 54px;
+        margin-left: 16px;
+        margin-bottom: 40px;
     }
 
     .n_booking_buttonWrap {
@@ -332,5 +334,15 @@
         margin-bottom: 50px;
         margin-top: 15px;
     }
-
+    .n_walking_site_wrap5{
+        display: flex;
+       
+    }
+    .n_walking_site{
+        width: 50px;
+    }
+    .n_walking_site5{
+        width: 60px;
+        color: var(--mainblue);
+    }
 }
