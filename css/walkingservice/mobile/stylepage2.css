@@ -563,7 +563,21 @@
         line-height: 38px;
     }
     .form-control{
-        margin-top: 60px;
-        margin-left: 50px;
+        border-radius: 10px ;
+        margin-top: -250px;
+        margin-left: 100px;
     }
+.n_select_wrap{
+    width:40px;
+    margin-bottom: -23px;
+    margin-left: 50px;
+    display: flex;
+}
+.n_select_wrap{
+    color: var(--mainblue);
+}
+.n_select_wrapAll{
+    margin-top: 100px;
+}
+
 }

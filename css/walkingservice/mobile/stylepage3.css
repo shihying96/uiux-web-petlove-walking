@@ -571,6 +571,16 @@ width: 210px;
     margin-bottom: 50px;
     margin-top: 0px;
 }
+
+.gj-picker-bootstrap table tr td.today div{
+    color: var(--mainblue) !important;
+}
+}
+
+.gj-picker-bootstrap table tr td.selected.gj-cursor-pointer div{
+    background-color: var(--mainblue)!important;
+    border-color:var(--mainblue)!important;
+    border-radius: 50% !important;
 }
 
 
