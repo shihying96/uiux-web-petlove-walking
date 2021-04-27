@@ -499,6 +499,19 @@ margin-left: 4px;
     .n_walking_tatal{
         margin-right: 35px;
    }
+   .n_walking_tatalweb{
+       display: none;
+   }
 
+   .n_walking_tatal span{
+       font-weight: 600;
+   }
 
+   .n_visa{
+       display: none;
+   }
+   .n_walking_title2{
+       display: none;
+   }
+ 
 }
