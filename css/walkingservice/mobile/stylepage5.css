@@ -89,6 +89,7 @@
     .n_booking_buttonWrap2 {
         width: fit-content;
         margin: 0 auto;
+        
     }
 
     .n_booking_button2 {
@@ -105,6 +106,7 @@
         line-height: 35px;
         margin-bottom: 50px;
         margin-top: 0px;
+       
     }
 
     #Ellipse_38 {
@@ -225,7 +227,7 @@
 }
 
 .n_walkerIntroText_server{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .n_dog_size_title{
@@ -444,4 +446,59 @@ margin-left: 4px;
 .n_customer_score_percent2{
     margin-left: 10px;
 }
+
+
+.n_reservation{
+    width: 255px;
+    height: 60px;
+    background: #fff;
+    border-radius: 15px;
+    border: 1px solid var(--maingray);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 90;
+    right: 90px;
+    bottom: 28px;
+    display: none;
+    transition: all 0.5s;
+    text-align: center;
+}
+ .n_booking_buttonWrap {
+        width: fit-content;
+        margin-left: 12px !important;
+
+        display: flex;
+        line-height: 35px;
+       
+    }
+
+    .n_booking_button {
+        border: 0;
+        height: 35px;
+        width: 100px;
+        background: var(--mainyellow);
+        color: var(--maindarkgray)!important;
+        border-radius: 18px;
+        font-size: 16px;
+        color: #fff;
+        margin: 0 auto;
+        text-align: center;
+     
+        letter-spacing: 3px;
+     margin-right: 0; 
+       
+    }
+    .n_walking_title{
+      margin-top: 12px;
+      
+        display: flex;
+
+    }
+   
+    .n_walking_tatal{
+        margin-right: 35px;
+   }
+
+
 }
