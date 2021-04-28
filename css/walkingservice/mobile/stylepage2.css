@@ -11,7 +11,7 @@
 
 
 
-    .n_WalkTheDogIMG1 {
+.n_WalkTheDogIMG1 {
         background-image: url(/images/walkingservice/choice/WalkingServiceChoice_18.jpeg);
         background-size: cover;
         width: 270px;
@@ -566,6 +566,7 @@
         border-radius: 10px ;
         margin-top: -250px;
         margin-left: 100px;
+        border: none;
     }
 .n_select_wrap{
     width:40px;
@@ -579,5 +580,12 @@
 .n_select_wrapAll{
     margin-top: 100px;
 }
+
+
+.form-control:focus {
+   box-shadow: none;
+   border:none;
+}
+
 
 }

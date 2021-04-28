@@ -709,8 +709,10 @@ margin-left: 4px;
     transform: translateY(-420%)!important;
   }
   .flickity-enabled.is-draggable{
-      width: 1245px!important;
+      width: 1250px!important;
       margin: 0 auto!important;
       margin-top: 50px!important;
+
+      overflow: hidden;
   }
 }
