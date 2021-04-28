@@ -71,7 +71,12 @@
 
     .form-control {
         border-radius: 10px !important;
+        border:none;
     }
+    .form-control:focus {
+        box-shadow: none;
+        border:none;
+     }
 
     .n_walking_site_wrap {
         margin-bottom: 20px;

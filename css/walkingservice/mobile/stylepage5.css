@@ -513,5 +513,7 @@ margin-left: 4px;
    .n_walking_title2{
        display: none;
    }
- 
+ .n_slider{
+     display: none!important;
+ }
 }

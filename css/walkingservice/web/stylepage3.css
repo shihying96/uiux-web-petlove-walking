@@ -113,8 +113,13 @@
         width: 210px !important;
         color: var(--maindarkgray);
         border: 1px solid var(--maingray);
+        border:none;
         height: 38px;
     }
+    .form-control:focus {
+        box-shadow: none;
+        border:none;
+     }
 
     .n_walking_site_wrapAll {
         display: flex;

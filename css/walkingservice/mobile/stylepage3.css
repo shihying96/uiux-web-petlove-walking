@@ -529,10 +529,15 @@ fill: none !important;
 }
 .form-control{
 width: 210px;
+border:none;
     border-radius:10px!important;
     color: var(--maindarkgray)!important;
 }
-
+.form-control:focus {
+    box-shadow: none;
+    border:none;
+ }
+ 
  .n_walking_site_wrap{
      margin-bottom: 20px;
     

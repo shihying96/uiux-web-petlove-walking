@@ -128,7 +128,7 @@
 
     .n_walking_select_box_img1 {
         background-image: url(/images/walkingservice/content/WalkingServiceCommentDogImg01.jpg);
-        width: 180px;
+        width: 200px;
         height: 150px;
         background-size: cover;
         border-radius: 10px 10px 0 0;
@@ -244,16 +244,17 @@
         border-radius: 10px !important;
         width: 140px !important;
         color: var(--maindarkgray);
-        border: 1px solid var(--maingray);
         height: 38px;
-        
+        border:none;
     }
-
+    .form-control:focus {
+        box-shadow: none;
+        border:none;
+     }
     .form-control2 {
         border-radius: 10px !important;
         width: 250px !important;
         color: var(--maindarkgray);
-        border: 1px solid var(--maingray);
         height: 38px;
     }
 
@@ -268,8 +269,8 @@
 
 
     .n_walking_select_box {
-        width: 180px;
-        height: 320px;
+        width: 200px;
+        height: 300px;
         background: #fff;
         border-radius: 10px;
         margin-bottom: 30px;

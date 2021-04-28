@@ -694,16 +694,7 @@ margin-left: 4px;
    }
    
  
-  
-  .n_carousel-cell {
-    width: 300px;
-    height: 530px;
-    margin: 10px;
-  
-    border-radius: 5px;
-    counter-increment: carousel-cell;
-    overflow: hidden;
-  }
+
 
   .flickity-prev-next-button{
     transform: translateY(-420%)!important;
@@ -715,4 +706,21 @@ margin-left: 4px;
 
       overflow: hidden;
   }
+  
+/* 電腦評論輪播 */
+  .n_slider{
+      margin-top: 50px;
+      margin-bottom: 200px;
+  }
+  .slick-prev{
+    left: -120px!important;
+  }
+  .slick-prev:before, .slick-next:before{
+      color: var(--maingray)!important;
+  }
+ .n_slide-1{
+     width: 300px;
+     height: 200px;
+ }
+ 
 }
