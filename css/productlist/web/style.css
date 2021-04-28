@@ -192,16 +192,16 @@
           margin-left: 35px;
       }
       .n_booking_buttonweb {
-          display: none;
-          z-index: 1000;
-      position: relative;
+         
+        z-index: 1000;
+        position: relative;
         border: 0;
         height: 35px;
         width: 180px;
-        background: var(--mainyellow);
+        background: transparent;
         border-radius: 18px;
         font-size: 16px;
-        color: #fff;
+        color: transparent;
         text-align: center;
         letter-spacing: 3px;
         line-height: 35px;
@@ -334,5 +334,7 @@
    .n_heart_color{
        fill: var(--mainpink);
    }
+  
+
    
 }

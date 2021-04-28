@@ -306,7 +306,7 @@
 .n_dog_size_title{
   
     width: fit-content;
-    margin-top: -100px;
+    margin-top: 50px;
     margin-left: 480px;
 }
 
@@ -646,11 +646,18 @@ margin-left: 4px;
        margin-top: 6px;
    }
    .n_walking_tatalweb{
+    justify-content: center;
+    z-index: 90;
+    display: none;
+    transition: all 0.5s;
+    text-align: center;
         width: 460px;
         height: 150px;
         background: #fff;
         border-radius: 10px;
         border: 1px solid var(--maingray);
+        position: fixed;
+        bottom: 20px;
         margin-left: 1020px;
    }
    .line-pay{
@@ -723,4 +730,8 @@ margin-left: 4px;
      height: 200px;
  }
  
+ .n_dog_serviceAndPrice{
+     display: flex;
+     
+ }
 }

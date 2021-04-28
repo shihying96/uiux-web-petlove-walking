@@ -23,13 +23,28 @@ for (let h of heart) {
 }
 
 
+// function mybuttonFunction() {
+//     var c = document.getElementsByClassName("n_product_bg");
+//     if (c.style.display === "none") {
+//         c.style.display = "block";
+//         console.log(c);
+//     } else {
+//         c.style.display = "none";
 
-$('.n_product_hover').mouseenter(function () {
-    $('.n_booking_buttonweb').css('display', 'block')
+//     }
+
+
+// }
+
+
+
+
+$('.n_booking_buttonweb').mouseenter(function () {
+    $(this).css('background', '#F9DD83').css('color', 'grey').show()
 })
 
-$('.n_product_hover').mouseleave(function () {
-    $('.n_booking_buttonweb').css('display', 'none')
+$('.n_booking_buttonweb').mouseleave(function () {
+    $(this).css('background', 'transparent').css('color', 'transparent').show()
 
 })
 
