@@ -111,6 +111,13 @@
           margin-left: 1220px;
           line-height: 30px;
       }
+
+      .n_select_order .form-control{
+           width: 130px !important;
+      }
+   .test{
+       width: 130px !important;
+   }
       .n_select_plus{
           margin-bottom: 2px;
           margin-left: 5px;
@@ -129,7 +136,11 @@
           height: 250px;
           border-radius: 10px;
           background: #fff;
+          position: relative;
       }
+
+
+
   
       .n_product_img{
           display: flex;
@@ -176,6 +187,8 @@
     
       .n_booking_button {
           display: none;
+          position: relative;
+          z-index: 999;
           border: 0;
           height: 35px;
           width: 180px;
@@ -274,7 +287,7 @@
 
 /* 商品全部 */
     .n_product_wrapOUTSIDE{
-    margin-left: -40px;
+    margin-left: 0px;
     margin-top: 50px;
     }
 
@@ -286,7 +299,7 @@
     .n_list{
         width: 350px;
         color: var(--mainblue)!important;
-        margin-left: 120px;
+        margin-left: 80px;
         margin-top: 80px;
     }
 
@@ -400,7 +413,7 @@
         .twofloor {
             margin-left: 60px !important;
             padding: 0 !important;
-            margin-right: 120px !important;
+            margin-right: 225px !important;
             font-weight: normal !important;
             font-size: 18px !important;
             color: #89A7C2 !important;
@@ -428,6 +441,7 @@
             margin-bottom: 10PX;
             margin-top: 10px;
             cursor: pointer;
+            width: 85px;
         }
 
 
@@ -437,11 +451,7 @@
             cursor: pointer;
         }
 
-        /* 價錢範圍 */
-        .aa_leftnaverber_box2 {
-            width: 72px;
-            height: 85px;
-        }
+     
 
 
 
@@ -486,16 +496,63 @@
 
          .form-control {
         border-radius: 10px !important;
-        width: 140px !important;
+      width: 100px !important;
         color: var(--maindarkgray);
         height: 38px;
         box-shadow: none!important;
         outline: none!important;
-        border:none!important;
+        border:1px solid #89a7c25d!important;
+
     }
     .form-control:focus {
         border:none!important;
          box-shadow: none!important;
           outline: none!important;
      }
+
+        /* 價錢範圍 */
+        .aa_leftnaverber_box2 {
+           
+           
+            display: flex;
+        }
+     /*  價錢篩選器*/
+     .aa_leftnaverber_box2_leftbox{
+       width: fit-content; 
+     }
+
+     .aa_leftnaverber_box2_line{
+         width: 32px;
+         height: 22px;
+         border-bottom:1px solid #89A7C2 ;
+         margin: 0 10px;
+     }
+.aa_leftnaverber_box2_NT{
+    padding-top:6px ;
+}
+   .aa_leftnaverber_box2_money{
+         display: flex;
+     }
+
+.aa_leftnaverber_box2_leftbox{
+    text-align: center;
+    margin: 10px 0;
+}
+.aa_leftnaverber_box2_rightbox{
+    text-align: center;
+    margin: 10px 0;
+}
+.aa_leftnaverber_box2_textdown{
+    margin-bottom: 10px;
+}
+
+.aa_leftnaverber_box2_texttop{
+  margin-bottom: 10px;  
+}
+
+.twospfloor{
+    margin-left: 20px !important;
+    margin-right: 30px !important;
+}
+  
 }
