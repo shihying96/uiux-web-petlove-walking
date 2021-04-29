@@ -96,16 +96,16 @@
         justify-content: space-evenly;
     }
     .n_select_price,.n_select_order{
-        width: 130px;
-        height: 30px;
+        width: 140px;
+        height: 35px;
         background: #fff;
         border-radius: 10px;
-        text-align: center;
-        line-height: 30px;
+        left: 10px;
+        line-height: 35px;
     }
     .n_select_plus{
         margin-bottom: 2px;
-        margin-left: 5px;
+        margin-left: 45px;
     }
     .n_icon-keyboard_arrow_down{
         fill: var(--maindarkgray);
@@ -188,38 +188,88 @@
 
     /* 頁數 */
     .pagination {
-        justify-content: center;
-        margin-top: 100px;
-        margin-bottom: 100px;
+        justify-content: center !important;
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+        margin-left:35px!important;
     }
 
     .page-link {
-        background-color: transparent;
-        border: none;
-        color: var(--mainblue);
-        font-size: 16px;
+        background-color: transparent !important;
+        border: none !important;
+        color: var(--mainblue) !important;
+        font-size: 16px !important;
     }
 
     .page-link:hover {
-        background-color: transparent;
-        border-color: transparent;
-        color: var(--mainyellow);
+        background-color: transparent !important;
+        border-color: transparent !important;
+        color: var(--mainyellow) !important;
     }
 
     .page-link:focus {
-        box-shadow: none;
+        box-shadow: none !important;
     }
 
     a.badge-light:focus,
     a.badge-light:hover {
-        background-color: transparent;
+        background-color: transparent!important;
     }
 
     a:hover {
-        color: var(--mainyellow);
-        border-bottom: 1px solid var(--mainyellow);
-        text-decoration: none;
+        color: var(--mainyellow) !important;
+        border-bottom: 1px solid var(--mainyellow) !important;
+        text-decoration: none !important;
     }
 
     /* 頁數 */
+
+
+
+
+    .n_list{
+        display: none;
+    }
+    .n_booking_buttonweb{
+        display: none;
+    }
+
+      .n_heart_color{
+       fill: var(--mainpink);
+   }
+
+      .n_product_like{
+        z-index: 100;
+        position: absolute;
+     }
+     .n_icon-heart{
+        
+          z-index: 100;
+          position: absolute;
+          width: 20px;
+          height: 20px;
+margin-left: 110px;
+}
+
+.n_category02.second{
+display: none;
+}
+          
+ .n_category02.third{
+display: none;
+}
+         .form-control {
+        border-radius: 10px !important;
+        width: 140px !important;
+        color: var(--maindarkgray);
+        height: 38px;
+        box-shadow: none!important;
+        outline: none!important;
+        border:none!important;
+    }
+    .form-control:focus {
+        border:none!important;
+         box-shadow: none!important;
+          outline: none!important;
+     }
 }

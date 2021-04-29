@@ -1,10 +1,10 @@
 $('.n_product_bg').mouseenter(function () {
-    $(this).css('filter', 'brightness(90%)')
+    $(this).css('filter', 'brightness(90%)').find('.n_booking_buttonweb').css('background', '#F9DD83').css('color', 'grey')
 
 })
 
 $('.n_product_bg').mouseleave(function () {
-    $(this).css('filter', 'brightness(100%)')
+    $(this).css('filter', 'brightness(100%)').find('.n_booking_buttonweb').css('background', 'transparent').css('color', 'transparent')
 
 })
 
@@ -39,14 +39,18 @@ for (let h of heart) {
 
 
 
-$('.n_booking_buttonweb').mouseenter(function () {
-    $(this).css('background', '#F9DD83').css('color', 'grey').show()
-})
+// $('.n_booking_buttonweb').mouseenter(function () {
+//     $(this).css('background', '#F9DD83').css('color', 'grey').show()
+// })
 
-$('.n_booking_buttonweb').mouseleave(function () {
-    $(this).css('background', 'transparent').css('color', 'transparent').show()
+// $('.n_booking_buttonweb').mouseleave(function () {
+//     $(this).css('background', 'transparent').css('color', 'transparent').show()
 
-})
+// })
+
+
+
+
 
 
 // $('.heart-button').click(function () {

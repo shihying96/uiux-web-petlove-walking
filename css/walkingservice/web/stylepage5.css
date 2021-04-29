@@ -648,7 +648,7 @@ margin-left: 4px;
    .n_walking_tatalweb{
     justify-content: center;
     z-index: 90;
-    display: none;
+    display: none ;
     transition: all 0.5s;
     text-align: center;
         width: 460px;
