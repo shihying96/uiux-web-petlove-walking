@@ -654,10 +654,22 @@ margin-left: 4px;
         background: #fff;
         border-radius: 10px;
         border: 1px solid var(--maingray);
-        position: fixed;
+        
         bottom: 20px;
-        margin-left: 1020px;
+   
+        margin-left: 213px;
+        left: 808px;
+        top: 80vh;
+        
    }
+
+   .n_walking_tatalweb.move{
+        position: fixed;
+   }
+
+.n_walking_tatalweb.remove{
+    margin-top: 400px;
+}
    .line-pay{
        width: 100px;
         height: 50px;
