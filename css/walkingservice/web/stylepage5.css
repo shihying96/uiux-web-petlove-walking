@@ -647,7 +647,7 @@ margin-left: 4px;
     justify-content: center;
     z-index: 90;
     display: none ;
-    transition: all 0.5s;
+    /* transition: all 0.5s; */
     text-align: center;
         width: 460px;
         height: 150px;
@@ -661,15 +661,22 @@ margin-left: 4px;
         left: 808px;
         top: 80vh;
         
+     
+       
+        
    }
 
    .n_walking_tatalweb.move{
         position: fixed;
    }
 
-.n_walking_tatalweb.remove{
-    margin-top: 400px;
+.n_walking_tatalweb.aaa{
+   
+   margin-top: 400px;
 }
+
+
+
    .line-pay{
        width: 100px;
         height: 50px;
