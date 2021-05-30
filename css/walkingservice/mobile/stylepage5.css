@@ -525,6 +525,14 @@
 
     }
 
+    .n_customer_score01_star {
+        display: none;
+    }
+
+    .n_star4_wrap {
+        display: none;
+    }
+
     .n_booking_button {
         border: 0;
         height: 35px;
