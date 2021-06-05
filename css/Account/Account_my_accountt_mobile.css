@@ -1,0 +1,416 @@
+@media (min-width: 375px)and (max-width: 1127px) {
+
+/* 手機訂單user 切換頁 */
+.l_black{
+    width: 100%;
+    height: 100%;
+    background-color: #707070;
+    /* border: 1px red solid; */
+   
+    z-index: 44;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.6;
+    position: fixed
+
+}
+.l_user_mobile{
+    width: 233px;
+    height: 300px;
+   background-color: #F7F4EE;
+    
+   position: fixed;
+    z-index: 55;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* left: 130px; */
+    top: 70px;
+    right: 15px;
+    border-radius: 10px;
+}
+.l_user_order a{
+    font-size: 18px;
+    color: #89A7C2;
+    text-decoration: none;
+}
+.l_user_order li{
+    margin-top: 10px;
+}
+.l_user_mobile .l_photo_name{
+    display: flex;
+    margin: 30px 0 20px;
+}
+.l_user_mobile .l_member_photo{
+    width: 50px ;
+    height: 50px;
+    background-color: #89A7C2;
+    border-radius: 50px;
+}
+.l_user_mobile .l_member_name{
+    font-size: 18px;
+    color: #89A7C2;
+    margin-left: 10px;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+
+body{
+        background-color: #F7F4EE;
+    }
+.container-full{
+    margin: 0 auto;
+   
+    width: 100%;
+
+}
+
+
+.l_my_account_title_mobile,
+.l_change_password_title_mobile{
+    text-align: center;
+    margin-bottom: 20px;
+  
+    
+}
+.l_my_account_box h3,
+.l_my_account_box h4{
+    width: 50%;
+    height: 60px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #707070;
+  line-height: 20px;
+    text-align: center;
+    margin: 0 auto  ;
+   
+}
+.l_change_password_box h3{
+    display: none;
+}
+.l_account_togglebar_mobile{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+   
+}
+
+.l_account_togglebar_mobile li{ 
+    list-style: none;
+
+   
+    
+}
+.l_account_togglebar_mobile a{ text-decoration: none;
+    font-size: 16px;
+    
+    color: #89A7C2;
+}
+.l_yellow_line{
+    width: 75px ;
+    height: 3px;
+    background-color: #F9DD83;
+   
+    transform: translateY(-10px) translateX(77px);
+    transition: .5s;
+}
+.l_photo_box{
+ width: 85%;
+    margin: 80px auto 50px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.l_my_photo{
+   
+    width: 80px ;
+    height: 80px;
+    background-color: #89A7C2;
+    border-radius: 50px;
+    
+}
+.l_change_photo_mobile{
+   
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.l_change_photo_mobile svg{
+    width: 90%;
+}
+.l_account_input{
+    width: 80%;
+     /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 100px;
+    
+}
+
+#dis{
+    flex-wrap: nowrap;
+}
+.c_donate_address .form-group{
+    width: 33% ;
+   margin-right: 0;
+
+}
+.c_donate_address .form-control{
+   
+   padding-left: 2px;
+}
+
+label{
+    font-size: 18px;
+    color: #707070;
+    font-weight: normal;
+
+}
+.l_gender{
+    width: 100%;
+   
+   margin: 30px auto 80px;
+   
+   
+  
+}
+.l_gender_selection{
+  
+   
+    margin-top: 10px;
+
+
+}
+
+.l_gender .form-check{
+    margin: 10px;
+   
+}
+
+
+.l_account_input button,
+.l_change_password_box button{
+    width: 200px;
+    height: 35px;
+    background-color: #F9DD83;
+    border-radius: 50px;
+    color: #707070;
+    outline: none;
+    border: none;
+    margin: 0 auto;
+
+}
+.c_form_name{
+   
+    font-size: 16px;
+}
+.form-group{
+    margin-top: 20px;
+}
+
+
+
+/* 地址 */
+.c_donate_address {
+    margin: 0;
+}
+
+.c_donate_address .form-group {
+    margin-right: 3%;
+    margin-top: 0;
+}
+.form-control:focus {
+    border-color: #fff;
+    -webkit-box-shadow: 0px 0px 0px 3px  var(--mainyellow);
+    box-shadow: 0px 0px 0px 3px  var(--mainyellow);
+  }
+  .c_form_name::after {
+    content: '*';
+    width: 30px;
+    height: 30px;
+    color: var(--mainpink);
+}
+
+.c_donate_warning {
+    color: var(--mainpink);
+    /* float: right; */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.c_donate_money_form .form-control {
+    border: 0;
+  
+}
+
+
+
+/* 改密碼 */
+.l_change_password_box button{
+    margin-top: 50px;
+}
+.c_donate_money_form li{
+   list-style: none;
+}
+.l_forgot_password {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    left: 75%;
+    top: 50px;
+}
+.l_forgot_password a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* 聯絡客服 */
+.modal-content {
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+}
+
+#message-text {
+    height: 200px;
+}
+
+.modal-footer {
+ border: 0;
+    margin: 0 auto !important;
+
+}
+
+.modal-body {
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.l_send_contact {
+    width: 130px;
+    border-radius: 50px;
+    background-color: #89A7C2;
+    color: #fff;
+    border: none;
+    outline: none;
+    /* margin-right: 90px; */
+   
+    
+}
+
+.form-control:focus {
+    border-color: #fff;
+    -webkit-box-shadow: 0px 0px 0px 3px #F9DD83;
+    box-shadow: 0px 0px 0px 3px #F9DD83;
+}
+
+.modal-header .close {
+    
+    font-size: 30px;
+}
+
+.modal-header h5 {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #707070;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+
+.l_member_detail,
+.l_my_account_title,
+.l_change_photo,
+.l_change_password_title{
+    display: none;
+}
+
+.myimg {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.n_photo_wrap{
+    width: 100px;
+    margin: 0 auto;
+}
+.n_photo{
+    width: 60px;
+margin: 0 auto;
+margin-top: 10px;
+background-color: #F9DD83;
+border-color: #F9DD83;
+margin-left: 10px;
+color: #707070;
+}
+.n_button_wrap{
+    width: 100px;
+    margin: 0 auto;
+}
+
+.btn:hover{
+    color: #fff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{
+    background-color: #F9DD83;
+    border-color: #F9DD83;
+    color: #707070;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    background: #F9DD83;
+    border-color:#F9DD83;
+    color: #707070;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    border-color:#F9DD83;
+    color: #707070;
+}
+ .n_wrap{
+width: fit-content;
+    margin: 0 auto;
+ }
+ .member_content_username{
+    font-size: 16px;
+    height: 33.5px;
+    line-height:33.5px;
+    color: #707070;
+ }
+ 
+ .c_Account_input_box small {
+    color: var(--mainpink);
+    padding-top: 1%;
+    float: right;}
+
+ .small, .small{
+    font-size: 80%;
+    font-weight: 400;
+}
+.member_content_userimg1{
+    width: 50px;
+    height: 50px;
+}
+.n_wrap{
+    width: fit-content;
+        margin: 0 auto;
+     }
+
+     .l_my_photo2{
+   
+    width: 50px ;
+    height: 50px;
+    background-color: #89A7C2;
+    border-radius: 50px;
+    
+}
+    
+}

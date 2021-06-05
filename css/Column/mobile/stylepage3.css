@@ -1,0 +1,27 @@
+:root {
+    --mainblue: #89A7C2;
+    --mainpink: #FF9A9A;
+    --mainyellow: #F9DD83;
+    --maingray: #CCCCCC;
+    --maindarkgray: #707070;
+
+}
+
+@media (min-width: 375px)and (max-width: 1127px) {
+
+    .n_content_title {
+        font-size: 16px;
+        font-weight: 500;
+        color: #89A7C2;
+        margin-top: 60px;
+        letter-spacing: 1.5px;
+    }
+
+    .n_content_inner {
+        margin-top: 20px;
+        width: 280px;
+        font-size: 14px;
+        letter-spacing: 1.5px;
+        line-height: 1.5;
+    }
+}

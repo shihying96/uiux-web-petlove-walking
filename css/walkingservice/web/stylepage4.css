@@ -8,6 +8,9 @@
 }
 
 @media only screen and (min-width: 1128px) {
+    a:hover {
+        text-decoration: none;
+    }
 
     /* map */
     #app {
@@ -216,7 +219,8 @@
         margin-left: 434px;
         margin-top: -50px;
     }
-    .page-link{
+
+    .page-link {
         font-size: 18px;
     }
 
@@ -245,12 +249,14 @@
         width: 140px !important;
         color: var(--maindarkgray);
         height: 38px;
-        border:none;
+        border: none;
     }
+
     .form-control:focus {
         box-shadow: none;
-        border:none;
-     }
+        border: none;
+    }
+
     .form-control2 {
         border-radius: 10px !important;
         width: 250px !important;
@@ -302,16 +308,17 @@
     #myDIV {
         display: none;
     }
-.gj-picker-bootstrap table tr td.today div{
-    color: var(--mainblue) !important;
 
-}
+    .gj-picker-bootstrap table tr td.today div {
+        color: var(--mainblue) !important;
 
-.gj-picker-bootstrap table tr td.selected.gj-cursor-pointer div{
-    background-color: var(--mainblue)!important;
-    border-color:var(--mainblue)!important;
-    border-radius: 50% !important;
-}
+    }
+
+    .gj-picker-bootstrap table tr td.selected.gj-cursor-pointer div {
+        background-color: var(--mainblue) !important;
+        border-color: var(--mainblue) !important;
+        border-radius: 50% !important;
+    }
 
 
 }

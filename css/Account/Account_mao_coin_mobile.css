@@ -1,0 +1,236 @@
+@media (min-width: 375px)and (max-width: 1127px) {
+    body {
+        background-color: #F7F4EE;
+        color: var(--maindarkgray);
+        font-family: 'Poppins', 'Noto Sans TC', sans-serif;
+
+    }
+
+    .container-full {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+        justify-content: space-between;
+        margin-top: 150px;
+
+    }
+
+    .l_main_right {
+        width: 100%;
+
+    }
+
+    .l_mao_coin {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .l_mao_coin_title_mobile {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .l_show_coin {
+        width: 85%;
+        height: 130px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 0 auto;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 8px;
+        padding-top: 20px;
+        justify-content: center;
+
+    }
+
+    .l_maoCoins {
+        width: 35px;
+        height: 35px;
+        /* margin-left: 30px; */
+
+
+
+    }
+
+    .l_coin_return {
+        margin-left: 10px;
+        font-size: 24px;
+        font-weight: 600;
+        color: #707070;
+        text-align: center;
+
+    }
+
+    .l_mark {
+        margin-left: 5px;
+        font-size: 14px;
+        color: #707070;
+    }
+
+    .l_question {
+        margin-left: 10px;
+        width: 22px;
+        height: 22px;
+        background-color: #89A7C2;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 22px;
+        font-weight: 700;
+    }
+
+    .l_question a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .l_expire_coin {
+        margin-left: 60px;
+
+    }
+
+    .l_expire_coin,
+    .l_expire_coin_return {
+        margin-top: -50px;
+        font-size: 12px;
+        color: #707070;
+    }
+
+    .l_mao_coin_program {
+        width: 100%;
+        border-bottom: 2px solid #CCCCCC;
+        margin: 0 auto 50px;
+
+    }
+
+    .l_mao_coin_program ul {
+        /* border: 1px solid red; */
+        display: flex;
+        margin: 80px auto 5px;
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .l_mao_coin_program li {
+        list-style: none;
+
+    }
+
+    .l_mao_coin_program a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #707070;
+
+    }
+
+    .l_coin_line_mobile {
+        /*    
+    border: 1px solid red; */
+        width: 84%;
+        height: 10px;
+        margin: 5px auto;
+
+
+    }
+
+    .l_coin_bottomline_mobile {
+        width: 50px;
+        height: 3px;
+        background-color: #FBD14B;
+        margin-bottom: 15px;
+        position: absolute;
+        transition: all 0.5s ease 0s;
+        /* border: 1px solid red; */
+
+    }
+
+    .l_mao_coin_one {
+        width: 100%;
+        height: 90px;
+        background-color: #fff;
+    }
+
+    .l_mao_coin_iteam {
+        height: 80px;
+        /* border: 1px red solid; */
+        padding: 18px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .l_date_return {
+        width: 190px;
+    }
+
+    .l_date_return,
+    .l_expiry_return {
+
+        /* border: 1px red solid; */
+        font-size: 12px;
+        color: #C1C1C1;
+    }
+
+    .l_record_return {
+        width: 250px;
+        /* border: 1px red solid; */
+        font-size: 14px;
+        color: #707070;
+    }
+
+    .l_points_return {
+        /* border: 1px red solid; */
+        font-size: 16px;
+        color: #707070;
+        font-weight: 600;
+    }
+
+    .l_mao_coin_detail {
+        width: 100%;
+        margin: 0 auto 100px;
+    }
+
+    .l_coin_detail_line {
+        width: 90%;
+        height: 2px;
+        background-color: #F7F4EE;
+        margin: 0 auto;
+    }
+
+    .l_coin_rule .l_h4 {
+        width: 90%;
+        font-size: 14px;
+        line-height: 35px;
+        letter-spacing: 2px;
+        color: #707070;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 20px;
+        position: absolute;
+        top: 390px;
+        opacity: 0.9;
+        font-weight: 400;
+        left: 20px;
+
+
+    }
+
+    .l_member_detail,
+    .l_mao_coin_title,
+    .l_mao_coin_bar,
+    ._coin_line {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+}
