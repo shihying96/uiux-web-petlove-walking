@@ -8,19 +8,22 @@
 }
 
 @media only screen and (min-width: 1128px) {
-
-
     .n_WalkTheDogIMG1 {
-        background: url(/images/walkingservice/choice/WalkingServiceChoice_18.jpeg) center;
-        background-size: cover;
+
         width: 900px;
-        height: 350px;
+        height: 420px;
         margin: 0 auto;
         margin-top: 150px;
-        border-radius: 10px;
-
 
     }
+
+    .n_WalkTheDogIMG1 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
 
 
 
